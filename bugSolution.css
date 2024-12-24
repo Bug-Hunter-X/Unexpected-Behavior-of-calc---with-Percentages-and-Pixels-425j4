@@ -1,0 +1,11 @@
+There are several workarounds for the unexpected behavior of `calc()` with percentages:
+
+1. **Alternative Layout Techniques:** Instead of relying on `calc()` for complex percentage-based calculations, consider using flexbox or grid for more robust and predictable layout control.
+
+2. **Explicit Units:**  In some cases, using consistent units throughout the `calc()` expression can improve accuracy and cross-browser compatibility. For example, if you intend to use pixels for the deduction, convert the percentage to pixels first based on parent element's width and then calculate.
+
+3. **Container Sizing:** Ensure that the parent container's size is correctly defined and that it does not introduce unexpected constraints that might affect the `calc()` result.  Use `box-sizing` to ensure that padding and border are correctly taken into account.
+
+4. **Browser-Specific Prefixes (if applicable):**  While less common now, in rare cases older browsers might require prefixes for `calc()`, though this is highly unlikely with modern browsers.
+
+The `bugSolution.css` file provides examples of these solutions.
