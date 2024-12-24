@@ -1,0 +1,3 @@
+This repository demonstrates a common issue encountered when using the `calc()` function in CSS. The problem arises when combining percentages and other units (like pixels) within the `calc()` function.  The expected behavior is that the calculation should accurately compute the resulting size. However, in certain scenarios, the calculation can be inconsistent across different browsers or might not produce the desired result.
+
+The `bug.css` file showcases the problematic CSS code. The `bugSolution.css` demonstrates a potential workaround or alternative approach to achieving the desired layout.
